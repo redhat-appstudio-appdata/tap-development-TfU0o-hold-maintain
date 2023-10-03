@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: layers-simple-tap-development
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhn-support-marrober-tenant/tap-development/layers-simple-tap-development@sha256:9ce8fc4161a76b96985461ca2b417be7efea9a237abd0bd0ec0a9fe3cf2cb9bc
+        name: container-image
+        resources: {}
+status: {}
