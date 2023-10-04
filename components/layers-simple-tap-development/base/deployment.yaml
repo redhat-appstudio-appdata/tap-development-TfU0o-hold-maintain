@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: layers-simple-tap-development
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhn-support-marrober-tenant/tap-development/layers-simple-tap-development@sha256:a21444b1a8b784fc9572cdf7de76db36651bf9955e286acc7588f9a8bb0edbf3
+      - image: quay.io/redhat-user-workloads/rhn-support-marrober-tenant/tap-development/layers-simple-tap-development@sha256:cef14dc62c28ff4b74a22b9d7cd7a34f140b4128f3a831b2cd5dbaef0e72bb22
         imagePullPolicy: Always
         name: container-image
         ports:
