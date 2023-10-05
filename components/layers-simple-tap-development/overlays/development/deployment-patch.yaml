@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhn-support-marrober-tenant/tap-development/layers-simple-tap-development@sha256:8874128e1ddd49a083bc2590ff40a830975abedda1fea0fe5a767c4da8ad393b
+      - image: quay.io/redhat-user-workloads/rhn-support-marrober-tenant/tap-development/layers-simple-tap-development@sha256:8c29d4779195fe2782f304dcd7eb5f46b852e2dbff941993b6fc2fafc73d9da6
         name: container-image
         resources: {}
 status: {}
